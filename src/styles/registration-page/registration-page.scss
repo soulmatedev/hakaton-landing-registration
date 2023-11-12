@@ -1,0 +1,10 @@
+@import "_registration-block";
+@import "_registration-input";
+@import "_registration-button";
+
+.registration-page {
+	height: 100%;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}

@@ -1,0 +1,20 @@
+@import "src/styles/variables";
+
+.auth-page__auth-block {
+	width: 650px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	::placeholder {
+		font-weight: 100;
+		font-size: 14px;
+	}
+
+	> h1 {
+		color: $text-primary;
+		font-size: 32px;
+		padding: 80px 0 42px;
+		font-weight: 200;
+	}
+}

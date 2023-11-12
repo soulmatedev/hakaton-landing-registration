@@ -1,0 +1,17 @@
+@import "src/styles/variables";
+
+.ui__input {
+	font-size: 16px;
+	border-radius: 6px;
+	padding: 10px 28px 10px 28px;
+	width: 350px;
+	height: 60px;
+	outline: none;
+	border: none;
+	color: $primary-input_content;
+	background-color: $primary-input_background-color;
+
+	&:hover {
+		transition: all 0.5s;
+	}
+}

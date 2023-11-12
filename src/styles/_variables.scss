@@ -1,0 +1,22 @@
+@import "colors";
+
+$primary: #3641ff;
+$dark-primary: #1926fc;
+
+$content-primary-frame: #d6e0ff;
+
+$text-primary: $grey850;
+$text-primary-light: $grey750;
+$text-secondary: $grey400;
+
+$primary-button_content: $white;
+$primary-button_background: $primary;
+$primary-button_background-color: $dark-primary;
+$primary-button_border: $primary;
+$primary-button_active: #000dff;
+
+$primary-input_content: $text-primary;
+$primary-input_border-color: $primary;
+$primary-input_border-color-active: $dark-primary;
+$primary-input_background-color: #edf1fc;
+

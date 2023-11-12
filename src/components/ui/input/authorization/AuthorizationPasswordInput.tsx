@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import PasswordInput from "./Password";
-import { RootState } from '../../../redux/store';
-import { updateAuthorizationPassword } from "../../../redux/reducers/authorizationValues";
+import PasswordInput from "../Password";
+import { RootState } from '../../../../redux/store';
+import { updateAuthorizationPassword } from "../../../../redux/reducers/authorizationValues";
 
 export const AuthorizationPasswordInput = () => {
 	const dispatch = useDispatch();

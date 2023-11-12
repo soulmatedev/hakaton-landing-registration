@@ -1,0 +1,10 @@
+@import "_authorization-block";
+@import "_authorization-button";
+@import "_authorization-input";
+
+.authorization-page {
+	height: 100%;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}

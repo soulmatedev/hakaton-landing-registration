@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import EmailInput from './EmailInput';
-import { RootState } from '../../../redux/store';
-import { updateAuthorizationEmail } from "../../../redux/reducers/authorizationValues";
+import EmailInput from '../EmailInput';
+import { RootState } from '../../../../redux/store';
+import { updateAuthorizationEmail } from "../../../../redux/reducers/authorizationValues";
 
 export const AuthorizationEmailInput = () => {
 	const dispatch = useDispatch();

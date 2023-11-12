@@ -1,0 +1,7 @@
+@import "src/styles/variables";
+
+.ui__content-primary-frame {
+	padding: 74px;
+	border: 2px solid $content-primary-frame;
+	border-radius: 10px;
+}
