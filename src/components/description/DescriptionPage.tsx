@@ -1,9 +1,11 @@
 import React from "react";
-import DescriptionBlock from "./DescriptionBlock";
+import DescriptionFirstBlock from "./DescriptionFirstBlock";
+import DescriptionSecondBlock from "./DescriptionSecondBlock";
 
 const DescriptionPage = () => (
 	<div className="description-page">
-		<DescriptionBlock />
+		<DescriptionFirstBlock />
+		<DescriptionSecondBlock />
 	</div>
 )
 
