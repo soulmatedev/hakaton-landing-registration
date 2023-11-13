@@ -2,26 +2,19 @@
 
 .ui__header-button {
   height: 30px;
-  width: 180px;
+  width: 140px;
   color: $primary-button_content;
   border: none;
   cursor: pointer;
   border-radius: 20px;
   background: $navbar-background-color;
   -webkit-transition: all 0.5s;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Poppins;
   font-weight: 400;
 
   &:hover{
-    background: $navbar-button_hover;
+    background: $header-button_hover;
     transition: all 0.5s;
-  }
-
-  &:active {
-    background-color: $header-button_active;
-    transition: all 0.25s;
-    -webkit-transition: all 0.25s;
-    box-shadow: none;
   }
 }

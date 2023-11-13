@@ -3,7 +3,7 @@
 $primary: #3641ff;
 $dark-primary: #1926fc;
 
-$text-primary: #F4EDBD;
+$text-primary: #FFFFFF;
 $text-primary-light: $grey750;
 $text-secondary: $grey400;
 
@@ -14,11 +14,11 @@ $primary-input_border-color: $primary;
 $primary-input_border-color-active: $dark-primary;
 $primary-input_background-color: #edf1fc;
 
-$primary-button_content: #F4EBDB;
-$primary-button_background: #2C4A52;
-$primary-button_background-color: #1d444f;
+$primary-button_content: #FFFFFF;
+$primary-button_background: #5CC86D;
+$primary-button_background-color: #5ab66b;
 $primary-button_border: $primary;
-$primary-button_active: #223e48;
+$primary-button_active: #5CC86D;
 
 $secondary-button_content: $grey700;
 $secondary-button_background: #fafbff;
@@ -26,8 +26,10 @@ $secondary-button_border: #d6e0ff;
 $secondary-button_active: #e8ecff;
 $secondary-button_hover: #f6f6f6;
 
-$navbar-background-color: #537072;
+$header-button_hover: #004445;
+
+$navbar-background-color: #2C7D78;
 $navbar-button_hover: #8E9B97;
 $header-button_active: #e5e8ff;
 
-$footer-background-color: #8E9B97
+$footer-background-color: #2C7D78;

@@ -1,14 +1,14 @@
 @import 'src/styles/variables';
 
 .navbar-content {
-  text-align: center;
+  display: grid;
+  text-align: end;
 
   > .navbar-content_ul {
     list-style: none;
   }
 
   > .navbar-content_li {
-    font-size: 20px;
     cursor: pointer;
   }
 }

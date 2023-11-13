@@ -1,17 +1,17 @@
 @import "src/styles/variables";
 
 .ui__primary-button {
-	padding: 20px;
 	font-family: Poppins;
 	font-weight: 400;
-	width: 200px;
-	height: 60px;
+	width: 220px;
+	height: 50px;
 	border: none;
 	cursor: pointer;
 	color: $primary-button_content;
 	background: $primary-button_background;
 	-webkit-transition: all 0.5s;
 	border-radius: 32px;
+	font-size: 18px;
 
 	&:hover {
 		box-shadow: inset 0 -100px 0 0 $primary-button_background-color;

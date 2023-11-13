@@ -1,22 +1,26 @@
 import React from 'react';
-import { NavigateFunction, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import HeaderButton from '../ui/button/HeaderButton';
 import PrimaryButton from "../ui/button/PrimaryButton";
 
-const onAuthorizationClick = (navigateToSchemas: NavigateFunction) => {
-    navigateToSchemas('/authorization');
-};
-
-const onOrganizationsClick = (navigateToSchemas: NavigateFunction) => {
-    navigateToSchemas('/organizations');
-};
-
-const onDashboardClick = (navigateToSchemas: NavigateFunction) => {
-    navigateToSchemas('/dashboard');
-};
-
 const NavbarBlock = () => {
-    const navigate = useNavigate();
+    const navigator = useNavigate();
+
+    const onRegistrationClick = () => {
+        navigator('/registration');
+    };
+
+    const onProgramClick = () => {
+        navigator('/program');
+    };
+
+    const onHomePageClick = () => {
+        navigator('/');
+    };
+
+    const onDescriptionClick = () => {
+        navigator('/description');
+    };
 
     return (
         <header className="navbar">
@@ -24,19 +28,24 @@ const NavbarBlock = () => {
                 <ul className="navbar-content_ul">
                     <li className="navbar-content_li">
                         <HeaderButton
-                            className="navbar-content__button_dashboard"
-                            content="Программа"
-                            onClick={() => onDashboardClick(navigate)}
+                          className="navbar-content__button_home"
+                          content="Главная"
+                          onClick={onHomePageClick}
                         />
                         <HeaderButton
-                            className="navbar-content__button_list_organizations"
+                            className="navbar-content__button_program"
+                            content="Программа"
+                            onClick={onProgramClick}
+                        />
+                        <HeaderButton
+                            className="navbar-content__button_description"
                             content="Описание"
-                            onClick={() => onOrganizationsClick(navigate)}
+                            onClick={onDescriptionClick}
                         />
                         <PrimaryButton
-                            className="navbar-content__button_authorization"
+                            className="navbar-content__button_registration"
                             content="Зарегистрироваться"
-                            onClick={() => onAuthorizationClick(navigate)}
+                            onClick={onRegistrationClick}
                         />
                     </li>
                 </ul>

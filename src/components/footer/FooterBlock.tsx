@@ -13,7 +13,7 @@ const FooterBlock = () => (
             <div className="footer-organizator">
                 <h1>Организатор:</h1>
                 <span>ГБПОУ «КТК»<br/>
-                    Официальный сайт Организатора:<br/>
+                    Официальный сайт организатора:<br/>
                     https://ktk-45.ru/
                 </span>
             </div>
