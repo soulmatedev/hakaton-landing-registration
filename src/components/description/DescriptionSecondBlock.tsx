@@ -1,6 +1,6 @@
 import React from "react";
 import FooterBlock from "../footer/FooterBlock";
-import Logo from "../../assets/jpg/Logo.jpg";
+import DescriptionSecondArt from "../../assets/jpg/DescriptionSecondArt.jpg"
 
 export const DescriptionSecondBlock = () => {
     return (
@@ -22,7 +22,7 @@ export const DescriptionSecondBlock = () => {
                     23 лет образовательных учреждений Курганской области.
                 </div>
                 <div className="description-second-page__description-art">
-                    <img src={Logo} alt="iiuii"/>
+                    <img src={DescriptionSecondArt} alt="iiuii"/>
                 </div>
             </div>
             <FooterBlock/>
