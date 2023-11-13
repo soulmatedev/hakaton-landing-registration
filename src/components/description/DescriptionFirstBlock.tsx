@@ -1,7 +1,6 @@
 import React from "react";
 import NavbarBlock from "../navbar/NavbarBlock";
-import Logo from "../../assets/jpg/Logo.jpg"
-
+import DescriptionFirstArt from "../../assets/jpg/DescriptionFirstArt.jpg"
 
 
 export const DescriptionFirstBlock = () => {
@@ -10,7 +9,7 @@ export const DescriptionFirstBlock = () => {
             <NavbarBlock/>
             <div className="description-first-page__description-block">
                 <div className="description-first-page__description-art">
-                    <img src={Logo} alt="iiuii"/>
+                    <img src={DescriptionFirstArt} alt="iiuii"/>
                 </div>
                     <div className="description-first-page__description-desc">
                         <span>  One.Code.Web: </span> <br/>
