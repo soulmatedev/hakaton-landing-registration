@@ -1,7 +1,7 @@
 import React from "react";
 import FooterBlock from "../footer/FooterBlock";
 
-const DescriptionSecondBlock = () => {
+export const DescriptionSecondBlock = () => {
     return (
         <>
             <div className="description-page__description-block">
@@ -32,4 +32,3 @@ const DescriptionSecondBlock = () => {
 }
 
 
-export default DescriptionSecondBlock;

@@ -2,7 +2,7 @@ import React from "react";
 import NavbarBlock from "../navbar/NavbarBlock";
 
 
-const DescriptionFirstBlock = () => {
+export const DescriptionFirstBlock = () => {
     return (
         <>
             <NavbarBlock/>
@@ -33,4 +33,3 @@ const DescriptionFirstBlock = () => {
 }
 
 
-export default DescriptionFirstBlock;

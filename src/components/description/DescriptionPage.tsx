@@ -1,6 +1,7 @@
 import React from "react";
-import DescriptionFirstBlock from "./DescriptionFirstBlock";
-import DescriptionSecondBlock from "./DescriptionSecondBlock";
+import {DescriptionFirstBlock} from "./DescriptionFirstBlock";
+import {DescriptionSecondBlock} from "./DescriptionSecondBlock";
+
 
 const DescriptionPage = () => (
 	<div className="description-page">
