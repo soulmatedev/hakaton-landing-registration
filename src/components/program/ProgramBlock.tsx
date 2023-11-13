@@ -1,5 +1,6 @@
 import React from "react";
 import NavbarBlock from "../navbar/NavbarBlock";
+import FooterBlock from "../footer/FooterBlock";
 
 const ProgramBlock = () => {
     return (
@@ -67,6 +68,7 @@ const ProgramBlock = () => {
                     </div>
                 </div>
             </div>
+            <FooterBlock/>
         </>)
 }
 
