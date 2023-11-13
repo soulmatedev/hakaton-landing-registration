@@ -1,7 +1,6 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
 import {useSelector} from 'react-redux';
-import ContentPrimaryFrame from "../ui/frame/ContentPrimaryFrame";
 import PrimaryButton from "../ui/button/PrimaryButton";
 import {RootState} from "../../redux/store";
 import API from "../../dal/API";
@@ -9,10 +8,15 @@ import RegistrationUsernameInput from "../ui/input/registration/RegistrationUser
 import RegistrationPasswordInput from "../ui/input/registration/RegistrationPasswordInput";
 import RegistrationEmailInput from "../ui/input/registration/RegistrationEmailInput";
 import NavbarBlock from "../navbar/NavbarBlock";
+import SecondaryButton from "../ui/button/SecondaryButton";
 
 const RegistrationBlock = () => {
 	const navigator = useNavigate();
 	const registrationState = useSelector((state: RootState) => state.registration);
+
+	const onAuthorizationClick = () => (
+		navigator("/authorization")
+	)
 
 	const onRegistrationClick = () => {
 		API.account.signUp({
@@ -31,7 +35,7 @@ const RegistrationBlock = () => {
 
 	return (
 		<>
-			<NavbarBlock/>
+			<NavbarBlock />
 			<div className="registration-page__block">
 				<div className="registration-page__left-block">
 					<div className="registration-page__content-block">
@@ -39,6 +43,14 @@ const RegistrationBlock = () => {
 						<RegistrationUsernameInput/>
 						<RegistrationEmailInput/>
 						<RegistrationPasswordInput/>
+						<div className="registration-page__question-box">
+							<p>Уже зарегистрированы ?</p>
+							<SecondaryButton
+								className="registration-frame__auth-button"
+								content="Авторизуйтесь"
+								onClick={onAuthorizationClick}
+							/>
+						</div>
 						<div className="registration-frame__button">
 							<PrimaryButton
 								className="registration-frame__button_registration"
