@@ -33,7 +33,11 @@ const HomeBlock = () => {
                             Время: <span>09:00 - 16:00</span>
                         </div>
                         <div className="home-page__home_button">
-                            <PrimaryButton content="Зарегистироваться" onClick={onRegistrationClick}/>
+                            <PrimaryButton
+                              content="Зарегистироваться"
+                              onClick={onRegistrationClick}
+                              className="home-page__primary-button"
+                            />
                         </div>
                     </div>
                 </div>
