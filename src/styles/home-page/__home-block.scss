@@ -1,19 +1,23 @@
 @import "src/styles/variables";
 
-.home-page__home-block {
+.home-page__home_block {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.home-page__home-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   margin: 30px 0 50px 90px;
 
   background: $frame-background-color;
-  width: 700px;
+  width: 1111px;
   height: 700px;
   border-radius: 16px;
-}
-
-.home-page__home-info {
   padding: 20px;
+
 }
 
 .home-page__home_title {
@@ -26,6 +30,10 @@
   line-height: normal;
 
   margin-top: 95px;
+}
+
+.home-page__home-art {
+  margin: 30px 0 50px 90px;
 }
 
 .home-page__home_description {
