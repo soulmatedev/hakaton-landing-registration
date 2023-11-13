@@ -1,0 +1,78 @@
+@import "src/styles/variables";
+
+.home-page__home-block {
+  margin: 80px 677px 152px 131px;
+
+  background: $frame-background-color;
+  width: 1112px;
+  height: 679px;
+  border-radius: 16px;
+}
+
+.home-page__home-info {
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.home-page__home_title {
+  color: $text-primary;
+  text-align: center;
+  font-family: Poppins sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin-top: 95px;
+}
+
+.home-page__home_description {
+  color: $text-primary;
+  text-align: center;
+  font-family: Poppins sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-top: 14px;
+}
+
+.home-page__home_venue {
+  color: $text-primary;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+
+  margin-top: 16px;
+}
+
+.home-page__home-datetime {
+  color: $text-primary;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+
+  margin-top: 20px;
+}
+
+.home-page__home-datetime span {
+  font-weight: 100;
+}
+
+.home-page__home_button {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 56px;
+}
+
