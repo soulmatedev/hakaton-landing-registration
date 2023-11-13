@@ -33,14 +33,14 @@ const NavbarBlock = () => {
                           onClick={onHomePageClick}
                         />
                         <HeaderButton
+                          className="navbar-content__button_description"
+                          content="Описание"
+                          onClick={onDescriptionClick}
+                        />
+                        <HeaderButton
                             className="navbar-content__button_program"
                             content="Программа"
                             onClick={onProgramClick}
-                        />
-                        <HeaderButton
-                            className="navbar-content__button_description"
-                            content="Описание"
-                            onClick={onDescriptionClick}
                         />
                         <PrimaryButton
                             className="navbar-content__button_registration"
