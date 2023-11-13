@@ -1,0 +1,117 @@
+@import "src/styles/variables";
+
+
+.program-page__block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 100px;
+}
+
+.program-page__left-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: end;
+  justify-items: center;
+}
+
+.program-page__center-program-left-info {
+  grid-column: span 2;
+  text-align: center;
+  color: #6FB98F;
+  font-family: Poppins sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.program-page__left-program-left-info {
+  color: $text-primary;
+  text-align: left;
+  font-family: Poppins sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-top: 54px;
+
+}
+
+.program-page__right-program-left-info {
+  color: $text-primary;
+  text-align: left;
+  font-family: Poppins sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-left: -100px;
+  margin-top: 54px;
+}
+
+.program-page__left-program-left-info span {
+  font-size: 32px;
+}
+
+.program-page__right-program-left-info span {
+  font-size: 32px;
+}
+
+.program-page__right-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: end;
+}
+
+.program-page__center-program-right-info {
+  grid-column: span 2;
+  text-align: center;
+  color: rgba(83, 112, 114, 0.40);
+  font-family: Poppins sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.program-page__left-program-right-info {
+  color: rgba(44, 74, 82, 0.40);
+  text-align: left;
+  font-family: Poppins sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-top: 54px;
+
+
+}
+
+.program-page__left-program-right-info span {
+  font-size: 32px;
+}
+
+.program-page__right-program-right-info {
+  align-items: end;
+  color: rgba(44, 74, 82, 0.40);
+  text-align: left;
+  font-family: Poppins sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-top: 54px;
+  margin-left: -100px;
+
+}
+
+.program-page__right-program-right-info span {
+  font-size: 32px;
+}
+
