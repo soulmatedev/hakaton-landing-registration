@@ -1,17 +1,18 @@
 import React from "react";
 import NavbarBlock from "../navbar/NavbarBlock";
+import Logo from "../../assets/jpg/Logo.jpg"
+
 
 
 export const DescriptionFirstBlock = () => {
     return (
         <>
             <NavbarBlock/>
-            <div className="description-page__description-block">
-                <div className="description-page__description-container">
-                    <div>
-
-                    </div>
-                    <div className="description-page__description-desc">
+            <div className="description-first-page__description-block">
+                <div className="description-first-page__description-art">
+                    <img src={Logo} alt="iiuii"/>
+                </div>
+                    <div className="description-first-page__description-desc">
                         <span>  One.Code.Web: </span> <br/>
                         Региональный IT-Хакатон для Студентов <br/>
                         <br/>
@@ -25,8 +26,6 @@ export const DescriptionFirstBlock = () => {
                         университет, Курганский государственный университет,
                         Центр развития современных компетенций.
                     </div>
-
-                </div>
             </div>
         </>
     )
