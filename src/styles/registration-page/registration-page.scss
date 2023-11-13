@@ -4,4 +4,7 @@
 @import "_registration-content-block";
 
 .registration-page {
+	display: grid;
+	align-items: center;
+	justify-content: center;
 }

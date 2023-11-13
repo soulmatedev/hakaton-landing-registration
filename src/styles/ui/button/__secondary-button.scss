@@ -1,0 +1,15 @@
+@import "src/styles/variables";
+
+.registration-frame__auth-button {
+	display: grid;
+	align-items: end;
+	font-weight: 300;
+	border: none;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	font-size: 16px;
+	background-color: #2C7873;
+	color: white;
+	margin-left: 30px;
+	margin-bottom: 2px;
+}
