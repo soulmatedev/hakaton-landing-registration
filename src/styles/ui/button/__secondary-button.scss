@@ -10,6 +10,20 @@
 	font-size: 16px;
 	background-color: #2C7873;
 	color: white;
-	margin-left: 30px;
+	margin-left: 42px;
+	margin-bottom: 2px;
+}
+
+.authorization-frame__reg-button {
+	display: grid;
+	align-items: end;
+	font-weight: 300;
+	border: none;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	font-size: 16px;
+	background-color: #2C7873;
+	color: white;
+	margin-left: 72px;
 	margin-bottom: 2px;
 }

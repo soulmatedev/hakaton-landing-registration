@@ -1,9 +1,8 @@
 @import "src/styles/variables";
 
-.registration-page__question-box{
+.authorization-page__question-box {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	margin-bottom: 20px;
 
 	> p {
 		font-size: 16px;

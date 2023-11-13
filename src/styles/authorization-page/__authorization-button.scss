@@ -1,7 +1,16 @@
 @import "src/styles/variables";
 
-.auth-frame__button_auth {
-	font-size: 16px;
-	width: 350px;
-	font-weight: 600;
+.authorization-frame__button {
+	display: grid;
+	justify-content: start;
+	align-items: start;
+	margin-bottom: 200px;
+	margin-top: 30px;
+
+	> .authorization-frame__reg-button {
+		height: 60px;
+		width: 270px;
+		border-radius: 16px;
+		font-weight: 500;
+	}
 }

@@ -9,6 +9,8 @@ import RegistrationPasswordInput from "../ui/input/registration/RegistrationPass
 import RegistrationEmailInput from "../ui/input/registration/RegistrationEmailInput";
 import NavbarBlock from "../navbar/NavbarBlock";
 import SecondaryButton from "../ui/button/SecondaryButton";
+import FooterBlock from "../footer/FooterBlock";
+import HomeArt from "../../assets/jpg/HomeArt.jpg";
 
 const RegistrationBlock = () => {
 	const navigator = useNavigate();
@@ -47,7 +49,7 @@ const RegistrationBlock = () => {
 							<p>Уже зарегистрированы ?</p>
 							<SecondaryButton
 								className="registration-frame__auth-button"
-								content="Авторизуйтесь"
+								content="Авторизация"
 								onClick={onAuthorizationClick}
 							/>
 						</div>
@@ -62,10 +64,11 @@ const RegistrationBlock = () => {
 				</div>
 				<div className="registration-page__right-block">
 					<div className="registration-page__right-block-content">
-
+						<img src={HomeArt} alt=""/>
 					</div>
 				</div>
 			</div>
+			<FooterBlock />
 		</>
 	);
 };
