@@ -1,0 +1,10 @@
+@import 'src/styles/variables';
+@import "_navbar-button";
+@import "_navbar-content";
+
+.navbar {
+  display: inline-block;
+  background-color: $navbar-background-color;
+  padding: 10px;
+  width: 100%;
+}

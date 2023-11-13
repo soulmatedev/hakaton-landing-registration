@@ -7,6 +7,7 @@ import { AuthorizationEmailInput } from "../ui/input/authorization/Authorization
 import { AuthorizationPasswordInput } from "../ui/input/authorization/AuthorizationPasswordInput";
 import API from "../../dal/API";
 import { RootState} from "../../redux/store";
+import NavbarBlock from "../navbar/NavbarBlock";
 
 const LoginBlock = () => {
 	const navigator = useNavigate();
@@ -28,16 +29,18 @@ const LoginBlock = () => {
 	};
 
 	return (
-		<ContentPrimaryFrame className="auth-page__auth-block">
+		<>
+			<NavbarBlock/>
+			<ContentPrimaryFrame className="auth-page__auth-block">
 			<h1>Авторизация</h1>
-			<AuthorizationEmailInput />
-			<AuthorizationPasswordInput />
+			<AuthorizationEmailInput/>
+			<AuthorizationPasswordInput/>
 			<PrimaryButton
 				className="ui__primary-button auth-frame__button_auth"
 				onClick={onAuthClick}
-				content="Войти"
-			/>
+				content="Войти"/>
 		</ContentPrimaryFrame>
+		</>
 	);
 };
 export default LoginBlock;

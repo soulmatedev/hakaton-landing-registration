@@ -1,0 +1,8 @@
+@import "src/styles/variables";
+@import "_footer-content";
+
+.footer {
+  display: grid;
+  background-color: $footer-background-color;
+  width: 100%;
+}

@@ -1,8 +1,10 @@
 @import "src/styles/variables";
 
 .ui__primary-button {
+	padding: 20px;
 	font-family: Poppins;
 	font-weight: 400;
+	width: 200px;
 	height: 60px;
 	border: none;
 	cursor: pointer;

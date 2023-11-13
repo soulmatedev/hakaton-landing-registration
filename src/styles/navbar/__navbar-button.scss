@@ -1,0 +1,19 @@
+@import "src/styles/variables";
+
+.navbar-content__button_dashboard {
+}
+
+.navbar-content__button_list_organizations {
+  margin-left: 6rem;
+}
+
+.navbar-content__button_authorization {
+  margin-left: 6rem;
+}
+
+.navbar-content__button_create_organization {
+  background: $navbar-background-color;
+  width: 240px;
+  font-family: Poppins;
+  margin-left: 6rem;
+}

@@ -2,6 +2,8 @@
 @import "styles/variables";
 @import "styles/authorization-page/authorization-page";
 @import "styles/registration-page/registration-page";
+@import "styles/navbar/navbar";
+@import "styles/footer/footer";
 @import "./styles/ui/ui";
 
 .router {
@@ -23,6 +25,7 @@ code {
 
 div#root {
   height: 100vh;
+  background-color: #E8E4DE;
 }
 
 * {

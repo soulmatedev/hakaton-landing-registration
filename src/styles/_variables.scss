@@ -3,20 +3,31 @@
 $primary: #3641ff;
 $dark-primary: #1926fc;
 
-$content-primary-frame: #d6e0ff;
-
-$text-primary: $grey850;
+$text-primary: #F4EDBD;
 $text-primary-light: $grey750;
 $text-secondary: $grey400;
 
-$primary-button_content: $white;
-$primary-button_background: $primary;
-$primary-button_background-color: $dark-primary;
-$primary-button_border: $primary;
-$primary-button_active: #000dff;
+$content-primary-frame: #d6e0ff;
 
 $primary-input_content: $text-primary;
 $primary-input_border-color: $primary;
 $primary-input_border-color-active: $dark-primary;
 $primary-input_background-color: #edf1fc;
 
+$primary-button_content: #F4EBDB;
+$primary-button_background: #2C4A52;
+$primary-button_background-color: #1d444f;
+$primary-button_border: $primary;
+$primary-button_active: #223e48;
+
+$secondary-button_content: $grey700;
+$secondary-button_background: #fafbff;
+$secondary-button_border: #d6e0ff;
+$secondary-button_active: #e8ecff;
+$secondary-button_hover: #f6f6f6;
+
+$navbar-background-color: #537072;
+$navbar-button_hover: #8E9B97;
+$header-button_active: #e5e8ff;
+
+$footer-background-color: #8E9B97
