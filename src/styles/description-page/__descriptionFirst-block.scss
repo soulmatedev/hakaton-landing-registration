@@ -3,12 +3,12 @@
 .description-first-page__description-block {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  justify-content: center;
+  align-items: end;
+  justify-content: start;
   margin: 30px 0 50px 90px;
 
   padding: 20px;
-  height: 700px;
+  height: 500px;
 }
 
 
