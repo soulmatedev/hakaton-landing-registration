@@ -4,4 +4,9 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	padding: 80px;
+
+	> .registration-page__right-block {
+		padding-left: 100px;
+	}
 }
+

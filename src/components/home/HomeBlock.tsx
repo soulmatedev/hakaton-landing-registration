@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import PrimaryButton from "../ui/button/PrimaryButton";
 import {useNavigate} from "react-router-dom";
 import FooterBlock from "../footer/FooterBlock";
@@ -9,8 +9,10 @@ import HomeArt from "../../assets/jpg/HomeArt.jpg"
 const HomeBlock = () => {
 
     const navigator = useNavigate();
+    const [isRegistered, setIsRegistered] = useState(false);
     const onRegistrationClick = () => {
         navigator("/registration")
+        setIsRegistered(true);
     }
 
     return (
@@ -36,7 +38,7 @@ const HomeBlock = () => {
                         </div>
                         <div className="home-page__home_button">
                             <PrimaryButton
-                                content="Зарегистироваться"
+                                content={isRegistered ? 'Вы зарегистрированы' : 'Зарегистрироваться'}
                                 onClick={onRegistrationClick}
                                 className="home-page__primary-button"
                             />

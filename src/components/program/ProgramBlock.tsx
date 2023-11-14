@@ -42,8 +42,8 @@ const ProgramBlock = () => {
                     </div>
                     <div className="program-page__left-program-right-info">
                         <span> 09.00-09.15 </span> <br/>
-                        Регистрация команд участников. Открытие <br/>
-                        второго дня <br/>
+                        Регистрация команд участников. <br/>
+                        Открытие второго дня. <br/>
                         <br/>
                         <span> 09.15-12.00 </span> <br/>
                         Работа в среде разработки <br/>
@@ -52,7 +52,6 @@ const ProgramBlock = () => {
                         Обед <br/>
                         <span>  13.00-14.00</span>  <br/>
                         Подготовка к защите проекта <br/>
-
                     </div>
                     <div className="program-page__right-program-right-info">
                         <span> 14.00-15.30 </span> <br/>

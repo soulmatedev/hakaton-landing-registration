@@ -60,7 +60,7 @@ const LoginBlock = () => {
 					</div>
 				</div>
 				<div className="authorization-page__right-block">
-					<div className="authorization-page__right-block-content">
+						<div className="authorization-page__right-block-content">
 						<img src={AuthorizationLogo} alt="" />
 					</div>
 				</div>

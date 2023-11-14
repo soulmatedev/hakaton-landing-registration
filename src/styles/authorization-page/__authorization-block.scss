@@ -3,5 +3,13 @@
 .authorization-page__block {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	padding: 80px;
+	padding: 80px 0 80px 0;
+
+	> .authorization-page__right-block {
+		padding-left: 100px;
+	}
+
+	.authorization-page__left-block {
+		padding-top: 50px;
+	}
 }
